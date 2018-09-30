@@ -32,6 +32,28 @@ data:extend(
             order = "f[cutter]",
             place_result = "cutter",
             stack_size = 10
+        },
+        {
+            type = "item",
+            name = "hydrolic-press",
+            icon = "__smimple__/graphics/icons/hydrolic-press.png",
+            icon_size = 32,
+            flags = {"goes-to-quickbar"},
+            subgroup = "production-machine",
+            order = "f[hydrolic-press]",
+            place_result = "hydrolic-press",
+            stack_size = 10
+        },
+        {
+            type = "item",
+            name = "smelter",
+            icon = "__smimple__/graphics/icons/furnace.png",
+            icon_size = 32,
+            flags = {"goes-to-quickbar"},
+            subgroup = "production-machine",
+            order = "f[smelter]",
+            place_result = "smelter",
+            stack_size = 10
         }
     }
 )

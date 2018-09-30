@@ -29,6 +29,26 @@ data:extend(
             enabled = "true",
             ingredients = {},
             result = "cutter"
+        },
+        {
+            type = "recipe",
+            name = "hydrolic-press",
+            icon = "__smimple__/graphics/icons/hydrolic-press.png",
+            icon_size = 32,
+            energy_required = 10.0,
+            enabled = "true",
+            ingredients = {},
+            result = "hydrolic-press"
+        },
+        {
+            type = "recipe",
+            name = "smelter",
+            icon = "__smimple__/graphics/icons/furnace.png",
+            icon_size = 32,
+            energy_required = 10.0,
+            enabled = "true",
+            ingredients = {},
+            result = "smelter"
         }
     }
 )
