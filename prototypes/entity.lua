@@ -3,7 +3,7 @@ data:extend(
         {
             type = "assembling-machine",
             name = "ore-spawner",
-            icon = "__smimple__/graphics/icons/spawner.png",
+            icon = "__smimple__/graphics/icons/ore-maker.png",
             icon_size = 32,
             flags = {"placeable-neutral", "placeable-player", "player-creation"},
             minable = {hardness = 0.2, mining_time = 0.5, result = "ore-spawner"},
@@ -13,7 +13,7 @@ data:extend(
             collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
             selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
             animation = {
-                filename = "__smimple__/graphics/entity/spawner.png",
+                filename = "__smimple__/graphics/entity/ore-maker.png",
                 priority = "high",
                 width = 32,
                 height = 32,

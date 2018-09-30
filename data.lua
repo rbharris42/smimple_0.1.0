@@ -1,5 +1,7 @@
 require("prototypes.item")
 require("prototypes.entity")
-require("prototypes.recipe")
+require("prototypes.recipes.machines")
+require("prototypes.recipes.ores")
+require("prototypes.recipes.wires")
 require("prototypes.ores")
 require("prototypes.categories")

@@ -3,7 +3,7 @@ data:extend(
         {
             type = "recipe",
             name = "ore-spawner",
-            icon = "__smimple__/graphics/icons/spawner.png",
+            icon = "__smimple__/graphics/icons/ore-maker.png",
             icon_size = 32,
             energy_required = 10.0,
             enabled = "true",
