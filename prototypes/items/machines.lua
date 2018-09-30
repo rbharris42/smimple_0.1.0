@@ -21,6 +21,17 @@ data:extend(
             order = "f[wire-cutter]",
             place_result = "wire-cutter",
             stack_size = 10
+        },
+        {
+            type = "item",
+            name = "cutter",
+            icon = "__smimple__/graphics/icons/cutter.png",
+            icon_size = 32,
+            flags = {"goes-to-quickbar"},
+            subgroup = "production-machine",
+            order = "f[cutter]",
+            place_result = "cutter",
+            stack_size = 10
         }
     }
 )

@@ -81,6 +81,48 @@ data:extend(
                 emissions = 0.005
             },
             fast_replaceable_group = "wire-cutter"
+        },
+        {
+            type = "furnace",
+            name = "cutter",
+            icon = "__smimple__/graphics/icons/cutter.png",
+            icon_size = 32,
+            flags = {"placeable-neutral", "placeable-player", "player-creation"},
+            minable = {mining_time = 1, result = "cutter"},
+            max_health = 300,
+            corpse = "medium-remnants",
+            vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
+            working_sound = {
+                sound = {filename = "__base__/sound/furnace.ogg"}
+            },
+            resistances = {
+                {
+                    type = "fire",
+                    percent = 100
+                }
+            },
+            collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
+            selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+            animation = {
+                filename = "__smimple__/graphics/entity/cutter.png",
+                priority = "high",
+                width = 32,
+                height = 32,
+                frame_count = 1,
+                line_length = 1,
+                shift = {0.0, 0.0}
+            },
+            crafting_categories = {"cutting"},
+            result_inventory_size = 1,
+            energy_usage = "1kW",
+            crafting_speed = 1,
+            source_inventory_size = 1,
+            energy_source = {
+                type = "electric",
+                usage_priority = "secondary-input",
+                emissions = 0.005
+            },
+            fast_replaceable_group = "cutter"
         }
     }
 )
