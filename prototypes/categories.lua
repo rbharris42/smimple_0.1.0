@@ -19,6 +19,10 @@ data:extend(
         {
             type = "recipe-category",
             name = "melting"
+        },
+        {
+            type = "recipe-category",
+            name = "products"
         }
     }
 )

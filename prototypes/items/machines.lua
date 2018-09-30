@@ -54,6 +54,17 @@ data:extend(
             order = "f[smelter]",
             place_result = "smelter",
             stack_size = 10
+        },
+        {
+            type = "item",
+            name = "crafter",
+            icon = "__smimple__/graphics/icons/crafter.png",
+            icon_size = 32,
+            flags = {"goes-to-quickbar"},
+            subgroup = "production-machine",
+            order = "f[crafter]",
+            place_result = "crafter",
+            stack_size = 10
         }
     }
 )

@@ -49,6 +49,16 @@ data:extend(
             enabled = "true",
             ingredients = {},
             result = "smelter"
+        },
+        {
+            type = "recipe",
+            name = "crafter",
+            icon = "__smimple__/graphics/icons/crafter.png",
+            icon_size = 32,
+            energy_required = 10.0,
+            enabled = "true",
+            ingredients = {},
+            result = "crafter"
         }
     }
 )
