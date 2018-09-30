@@ -1,15 +1,3 @@
-local aluminum = table.deepcopy(data.raw["item"]["iron-ore"])
-aluminum.name = "aluminum-ore"
-aluminum.icon = "__smimple__/graphics/icons/aluminum-ore.png"
-
-local gold = table.deepcopy(data.raw["item"]["iron-ore"])
-gold.name = "gold-ore"
-gold.icon = "__smimple__/graphics/icons/gold-ore.png"
-
-local diamond = table.deepcopy(data.raw["item"]["iron-ore"])
-diamond.name = "diamond-ore"
-diamond.icon = "__smimple__/graphics/icons/diamond-ore.png"
-
 local copper_wire = table.deepcopy(data.raw["item"]["copper-cable"])
 copper_wire.name = "copper-wire"
 copper_wire.icon_size = 32
@@ -35,4 +23,4 @@ gold_wire.name = "gold-wire"
 gold_wire.icon_size = 32
 gold_wire.icon = "__smimple__/graphics/icons/gold-wire.png"
 
-data:extend {aluminum, diamond, gold, copper_wire, iron_wire, diamond_wire, aluminum_wire, gold_wire}
+data:extend {copper_wire, iron_wire, diamond_wire, aluminum_wire, gold_wire}
